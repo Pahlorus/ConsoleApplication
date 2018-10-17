@@ -10,6 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            WorkerDB workerDB = new WorkerDB();
+            ConsoleFunction.StartText();
+            ConsoleFunction.InputHandler(workerDB);
         }
     }
 }
